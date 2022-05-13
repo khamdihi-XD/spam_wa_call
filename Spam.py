@@ -15,7 +15,7 @@ O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
 
 def Menu():
-     os.system('clear')
+     os.system('clear');os.system("xdg-open https://youtube.com/channel/UCOqxx2kjYPypVct2l81Y1Jw")
      print(' [%s1%s] Spam whatsaap (new)'%(O,N))
      print(' [%s2%s] Spam call and sms (new)'%(O,N))
      print(' [%s0%s] Kembali (exit)\n'%(O,N))
